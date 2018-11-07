@@ -8,8 +8,12 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void)
+{
+    char aNum;
+    
+    scanf("%c", &aNum);
+    printf("%d \n", aNum);
+    
     return 0;
 }
